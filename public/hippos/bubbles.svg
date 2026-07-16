@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#14605B"/>
+      <stop offset="55%" stop-color="#0B3D3A"/>
+      <stop offset="100%" stop-color="#041C1A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#C4A05A" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#C4A05A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" fill="url(#glow)"/>
+  <ellipse cx="180" cy="820" rx="280" ry="40" fill="#062826" opacity="0.45"/>
+  <!-- ears -->
+  <ellipse cx="294" cy="360" rx="58" ry="72" fill="#D4B8A8"/>
+  <ellipse cx="506" cy="360" rx="58" ry="72" fill="#D4B8A8"/>
+  <ellipse cx="294" cy="365" rx="28" ry="38" fill="#B88A78" opacity="0.55"/>
+  <ellipse cx="506" cy="365" rx="28" ry="38" fill="#B88A78" opacity="0.55"/>
+  <!-- head -->
+  <ellipse cx="400" cy="500" rx="210" ry="175" fill="#D4B8A8"/>
+  <!-- eyes -->
+  <circle cx="310" cy="463" r="18" fill="#1A2422"/>
+  <circle cx="490" cy="463" r="18" fill="#1A2422"/>
+  <circle cx="315" cy="458" r="5" fill="#E8F2F0" opacity="0.7"/>
+  <circle cx="495" cy="458" r="5" fill="#E8F2F0" opacity="0.7"/>
+  <!-- snout -->
+  <ellipse cx="400" cy="546" rx="125" ry="85" fill="#D4B8A8"/>
+  <ellipse cx="400" cy="556" rx="95" ry="55" fill="#B88A78" opacity="0.55"/>
+  <ellipse cx="355" cy="541" rx="18" ry="14" fill="#1A2422"/>
+  <ellipse cx="445" cy="541" rx="18" ry="14" fill="#1A2422"/>
+  <!-- water line hint -->
+  <path d="M0 780 Q200 740 400 775 T800 760 L800 1000 L0 1000 Z" fill="#062826" opacity="0.55"/>
+  <path d="M0 780 Q200 740 400 775 T800 760" fill="none" stroke="#E8F2F0" stroke-opacity="0.15" stroke-width="3"/>
+</svg>
